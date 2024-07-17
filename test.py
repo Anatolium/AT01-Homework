@@ -45,7 +45,7 @@ from main import remainder
 #         self.assertRaises(TypeError, divide, 6, 0)
 
 class TestRemainder(unittest.TestCase):
-    def test_divide_success(self):
+    def test_remainder_success(self):
         self.assertEqual(remainder(10, 2), 0)
         self.assertEqual(remainder(10, 3), 1)
         # Ошибка
