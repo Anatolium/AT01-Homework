@@ -24,8 +24,7 @@
 #     return a / b
 
 
-def remainder(dividend, divisor):
-    if divisor == 0:
+def remainder(a, b):
+    if b == 0:
         raise ValueError("Делитель не может быть равен нулю")
-    return dividend % divisor
-
+    return a % b
